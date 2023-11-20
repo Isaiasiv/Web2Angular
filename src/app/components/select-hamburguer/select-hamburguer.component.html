@@ -1,0 +1,78 @@
+<div>
+    <form>
+        <h2>Monte seu hambúrguer</h2>
+        <br>
+        <br>
+        <h4>Escolha o Pão</h4>
+        <label for="estado">Pão:</label>
+        <select id="estado" name="pao">
+            <option value=" ">Escolha o Pão</option>
+            <option value="p1">Italiano Branco</option>
+            <option value="p2">Parmesão</option>
+            <option value="p3">Pão Três Queijos</option>
+            <option value="p4">9 Grãos</option>
+        </select>
+
+        <h4>Escolha a Carne</h4>
+        <div class="radio">
+            <b>Escolha a Carne</b><br />
+            <input id="1" type="radio" name="option" value="1" />
+            <label for="1">Bovina</label><br />
+            <input id="2" type="radio" name="option" value="2" />
+            <label for="2">Suína</label><br />
+            <input id="3" type="radio" name="option" value="3" />
+            <label for="3">Frango</label>
+        </div>
+
+        <h4>Escolha os Ingredientes</h4>
+        <input type="checkbox" name="tomate" value="tomate">Tomate<br>
+        <input type="checkbox" name="alface" value="alface">Alface<br>
+        <input type="checkbox" name="pipino" value="pipino">Pepino<br>
+        <input type="checkbox" name="batata" value="batata">Batata Palha<br>
+        <input type="checkbox" name="salsicha" value="salsicha">Salsicha<br>
+        <input type="checkbox" name="bacon" value="bacon">Bacon<br>
+        <input type="checkbox" name="azeitona" value="azeitona">Azeitona<br>
+        <input type="checkbox" name="presunto" value="presunto">Presunto<br>
+        <input type="checkbox" name="queijo" value="queijo">Queijo<br>
+        <input type="checkbox" name="mussarela" value="mussarela">Mussarela<br>
+
+        <br>
+        <hr>
+        <h4>Escolha o molhos</h4>
+        <label><input type="checkbox" name="molho" value="1" >Ketchup</label><br>
+        <label><input type="checkbox" name="molho" value="2" >Mortarda</label><br>
+        <label><input type="checkbox" name="molho" value="3" >Maionese</label><br>
+        <label><input type="checkbox" name="molho" value="4" >Barbecue</label><br>
+        <label><input type="checkbox" name="molho" value="5" >Molho verde</label><br>
+        <label><input type="checkbox" name="molho" value="6" >Bechemel</label><br>
+        <label><input type="checkbox" name="molho" value="7" >Azeite</label><br>
+
+        <br>
+        
+
+        Escolha a Cor do brinde supresa: <input type="color" name="favcor" value="#0000FF">
+
+        <br>
+        <br>
+        <hr/>
+        <h2>Agende seu Pedido para Ser Entregue Mais Tarde</h2>
+        <br>
+        <br>
+        Data do pedido: <input type="datetime-local" name="bdaytime">
+
+        <hr/>
+
+        <br>
+        <label for="story">Orientação do Pedido:</label>
+        <br>
+        <textarea id="story" name="story" rows="5" cols="33">Orientação do Pedido:</textarea>
+        <br><br>
+       
+        <input type="submit" name="enviar" value="Enviar Pedido">
+        
+        <input type="reset" value="Excluir Pedido" />
+        <br><br>
+    </form>
+</div>
+<br>
+<app-select-bebida></app-select-bebida>

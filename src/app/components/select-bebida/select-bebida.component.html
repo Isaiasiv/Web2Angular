@@ -1,0 +1,73 @@
+<div class="um">
+    <div class="img">
+        <img  >
+    </div>
+    <picture>
+        <source media="(max-width: 800px)" srcset="https://github.com/Isaiasiv/imagens.angular.web1/blob/main/coca-cola-e-zero.png?raw=true">
+        <img src="https://github.com/Isaiasiv/imagens.angular.web1/blob/main/39-399924_o-diferencial-da-venda-de-bebidas-por-consignao.png?raw=true" alt="logo" width="100%">
+    </picture>
+
+    <form>
+        <h2>Selecione uma bebida</h2>
+        <br>
+        <br>
+        <h4>Menu de Bebidas</h4>
+
+        <div class="checkbox-group">
+            <label for="refrigerante">Refrigerante:</label>
+            <input type="checkbox" name="refrigerante" value="lata">Lata
+            <input type="checkbox" name="refrigerante" value="garrafa_600ml">Garrafa 600ml
+            <input type="checkbox" name="refrigerante" value="litro">1 Litro
+            <input type="checkbox" name="refrigerante" value="2_litros">2 Litros
+            Quantidade: <input type="number" class="quantity" name="refrigerante_quantidade" value="1" min="1">
+        </div>
+        <hr/>
+        <div class="checkbox-group">
+            <label for="suco">Suco:</label>
+            <input type="checkbox" name="suco" value="lata">Lata
+            <input type="checkbox" name="suco" value="garrafa_600ml">Garrafa 600ml
+            <input type="checkbox" name="suco" value="litro">1 Litro
+            <input type="checkbox" name="suco" value="2_litros">2 Litros
+            Quantidade: <input type="number" class="quantity" name="suco_quantidade" value="1" min="1">
+        </div>
+        <hr/>
+        <div class="checkbox-group">
+            <label for="agua">Água:</label>
+            <input type="checkbox" name="agua" value="garrafa_600ml">Garrafa 600ml
+            <input type="checkbox" name="agua" value="litro">1 Litro
+            <input type="checkbox" name="agua" value="2_litros">2 Litros
+            Quantidade: <input type="number" class="quantity" name="agua_quantidade" value="1" min="1">
+        </div>
+        <hr/>
+        <div class="checkbox-group">
+            <label for="agua">creme:</label>
+            <input type="checkbox" name="agua" value="garrafa_600ml">Garrafa 600ml
+            <input type="checkbox" name="agua" value="litro">1 Litro
+            <input type="checkbox" name="agua" value="2_litros">2 Litros
+            Quantidade: <input type="number" class="quantity" name="agua_quantidade" value="1" min="1">
+        </div>
+        <hr/>
+
+        <div class="checkbox-group">
+            <label for="creme">Creme:</label>
+            <input type="checkbox" name="creme" value="abacaxi">Abacaxi
+            <input type="checkbox" name="creme" value="tomate">Tomate
+            <input type="checkbox" name="creme" value="maracuja">Maracujá
+            <input type="checkbox" name="creme" value="morango">Morango
+            <input type="checkbox" name="creme" value="uva">Uva
+            Quantidade: <input type="number" class="quantity" name="creme_quantidade" value="1" min="1">
+            <br>
+            Tamanho: 
+            <select name="creme_tamanho">
+                <option value="300ml">300ml</option>
+                <option value="500ml">500ml</option>
+            </select>
+        </div>
+        <hr/>
+        <br>
+
+        <input type="submit" name="enviar" value="Adicionar ao Pedido">
+        <input type="reset" value="Limpar Seleções" />
+    </form>
+
+</div>

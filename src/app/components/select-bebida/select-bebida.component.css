@@ -1,0 +1,84 @@
+.um {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img {
+    align-items: center;
+}
+
+h4 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input[type="text"], input[type="datetime-local"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.quantity {
+    width: 60px;
+}
+
+input[type="color"] {
+    margin-top: 8px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="reset"] {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #ccc;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
